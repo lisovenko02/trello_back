@@ -8,7 +8,7 @@ async function bootstrap() {
 	app.setGlobalPrefix('api')
 	app.use(cookieParser())
 	app.enableCors({
-		origin: ['https://trello-front-ebon.vercel.app/'],
+		origin: ['https://trello-front-ebon.vercel.app'],
 		credentials: true,
 		exposedHeaders: 'set-cookie',
 	})
